@@ -36,3 +36,36 @@ header, main, footer {
     margin-inline: auto;
     padding-inline: 1.5rem;
 }
+
+/* Encabezado en formato de barra flexible */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* Lista de navegación horizontal con espacio */
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Transición suave y efecto hover en enlaces del nav */
+nav a {
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: var(--color-muted);
+}
+
+/* Accesibilidad para navegación mediante teclado */
+a:focus-visible {
+    outline: 2px solid var(--color-text);
+    outline-offset: 4px;
+}
