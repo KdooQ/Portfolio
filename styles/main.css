@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-}
-
 /* Variables globales en :root */
 :root {
     --color-bg: #0a0a0a;
@@ -19,6 +15,7 @@ body {
 
 /* Estilos base del body usando variables */
 body {
+    margin: 0;
     background-color: var(--color-bg);
     color: var(--color-text);
     font-family: var(--font-sans);
@@ -68,4 +65,23 @@ nav a:hover {
 a:focus-visible {
     outline: 2px solid var(--color-text);
     outline-offset: 4px;
+}
+
+/* Logo (header > a): sin subrayado, negrita y tamaño de fuente */
+header > a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+/* Enlaces del nav: color muted, sin subrayado y con transición */
+nav a {
+    color: var(--color-muted);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+/* Hover del nav: el color cambia a text (el opuesto a como lo tenías antes) */
+nav a:hover {
+    color: var(--color-text);
 }
