@@ -85,3 +85,43 @@ nav a {
 nav a:hover {
     color: var(--color-text);
 }
+
+/* --- Sección Hero --- */
+#inicio {
+    padding-block: 6rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    margin: 0 0 1rem;
+}
+
+#inicio h1 {
+    font-size: clamp(2.75rem, 8vw, 5rem);
+    font-weight: 600;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0 0 1.5rem;
+}
+
+#inicio h1 span {
+    color: var(--color-muted);
+}
+
+.lead {
+    font-size: 1.125rem;
+    color: var(--color-muted);
+    max-width: 32rem;
+    margin: 0 0 2rem;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
