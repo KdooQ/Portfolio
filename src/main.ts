@@ -9,19 +9,27 @@ if (!projectsContainer) {
 function createProjectElement(project: Project): HTMLLIElement {
     const listItem = document.createElement("li");
 
-    // Construimos el HTML interno del elemento de la lista
-    listItem.innerHTML = `
-        <h3>${project.title}</h3>
-        <p>${project.category} - ${project.year}</p>
-        <p>${project.description}</p>
-    `;
+    const titleElement = document.createElement("h3");
+    titleElement.textContent = project.title;
 
-    // Solo si existe una URL, añadimos dinámicamente el enlace "Ver proyecto"
+    const infoElement = document.createElement("p");
+    infoElement.textContent = `${project.category} - ${project.year}`;
+
+    const descElement = document.createElement("p");
+    descElement.textContent = project.description;
+
+    listItem.append(titleElement, infoElement, descElement);
+
     if (project.url) {
         const link = document.createElement("a");
         link.href = project.url;
         link.textContent = "Ver proyecto";
-        link.target = "_blank"; // Opcional: para que abra en otra pestaña
+
+        if (project.url.startsWith("http")) {
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+        }
+
         listItem.appendChild(link);
     }
 

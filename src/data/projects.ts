@@ -13,7 +13,6 @@ export const projects: Project[] = [
         year: 2026,
         category: "Desarrollo Web",
         description: "Sitio web de presentación profesional construido con TypeScript, HTML y Git.",
-        url: "#inicio"
     },
     {
         title: "Churn Prediction Pipeline",
