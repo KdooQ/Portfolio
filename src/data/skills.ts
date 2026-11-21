@@ -7,6 +7,7 @@ export const featuredTech = [
   { name: "JavaScript", icon: "javascript" },
   { name: "TypeScript", icon: "typescript" },
   { name: "Python", icon: "python" },
+  { name: "PostgreSQL", icon: "postgresql" },
   { name: "HTML", icon: "html5" },
   { name: "CSS", icon: "css3" },
 ];
@@ -38,6 +39,14 @@ export const skillCategories: SkillCategory[] = [
       { name: "GitHub", icon: "github", invert: true },
       { name: "Gestión de repositorios" },
       { name: "Flujos de trabajo" },
+    ],
+  },
+  {
+    title: "Bases de datos",
+    items: [
+      { name: "PostgreSQL", icon: "postgresql" },
+      { name: "Diseño de bases de datos" },
+      { name: "Consultas SQL" },
     ],
   },
   {
