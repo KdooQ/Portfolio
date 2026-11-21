@@ -34,7 +34,13 @@ export function Header() {
     <header className="header">
       <div className="container header__bar">
         <a className="brand" href="#inicio" onClick={() => setOpen(false)}>
-          <span className="brand__mark">{profile.initials}</span>
+          <img
+            className="brand__mark"
+            src="./favicon.svg"
+            alt=""
+            width="32"
+            height="32"
+          />
           <span className="brand__name">{profile.name}</span>
         </a>
 
