@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#0a0a0a"/><rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#3a3a3a" stroke-width="2"/><text x="32" y="42" fill="#fafafa" font-family="system-ui,sans-serif" font-size="28" font-weight="800" text-anchor="middle">TO</text></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="1024.000000pt" height="1024.000000pt" viewBox="0 0 1024.000000 1024.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M2610 8560 c-319 -7 -331 -9 -445 -68 -128 -67 -229 -195 -284 -360
+l-22 -63 -5 -2232 c-7 -2445 3 -3533 31 -3667 48 -227 189 -381 415 -452 l75
+-23 2860 0 c2759 0 2862 1 2913 19 134 46 268 170 337 311 70 142 66 59 77
+1435 9 1178 5 3452 -8 4215 -6 386 -11 419 -70 542 -71 149 -190 258 -335 309
+l-84 29 -1120 6 c-1402 8 -3943 7 -4335 -1z m2580 -1609 l285 -6 -380 -392
+-380 -393 -361 0 -360 0 -305 313 c-419 430 -443 456 -435 465 4 4 76 9 159
+13 211 7 1431 8 1777 0z m2016 -3 c9 -10 -74 -100 -443 -482 l-298 -308 -260
+-3 c-143 -1 -319 -3 -392 -4 -126 -1 -133 -2 -144 -23 -10 -18 -12 -282 -10
+-1146 l2 -1123 -123 -127 c-524 -540 -722 -736 -725 -717 -2 11 -7 690 -12
+1510 l-8 1490 226 235 c124 129 332 342 461 473 l236 239 741 -4 c408 -1 745
+-6 749 -10z"/>
+</g>
+</svg>
