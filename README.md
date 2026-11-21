@@ -92,3 +92,9 @@ git push origin main
 - **Imagen no aparece:** revisa mayúsculas/minúsculas y que la ruta no empiece con `/`.
 - **Logos de tecnologías muestran una letra:** no hay internet o el slug de devicon es incorrecto.
 - **`npm run build` falla por tipos:** el error indica el archivo y la línea; casi siempre es un campo faltante en `projects.ts`.
+
+## Licencia y contenido de terceros
+- El código original de este proyecto está disponible bajo la licencia MIT; consulta el archivo [LICENSE](LICENSE).
+- React, Vite, TypeScript, Devicon, Inter y otros recursos tienen sus propias licencias; consulta [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+- La licencia del código no concede derechos sobre fotografías personales, imágenes de proyectos, textos ajenos ni marcas comerciales.
+- Sustituye cualquier imagen o recurso sobre el cual no tengas autorización antes de publicar una copia pública.
