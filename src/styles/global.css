@@ -67,8 +67,8 @@ h1 span { color: #8a8a8a; }
 .techbar ul { display: flex; gap: 1.5rem; overflow-x: auto; scrollbar-width: none; padding-bottom: .25rem; }
 .techbar li { display: flex; align-items: center; gap: .55rem; white-space: nowrap; font-size: .95rem; }
 
-.tech-icon { width: 22px; height: 22px; filter: grayscale(1); }
-.tech-icon--invert { filter: grayscale(1) invert(1); }
+.tech-icon { width: 22px; height: 22px; }
+.tech-icon--invert { filter: invert(1); }
 .tech-fallback { display: inline-grid; place-items: center; background: var(--surface-2); border: 1px solid var(--border); border-radius: 6px; font-size: .75rem; font-weight: 700; flex: none; }
 
 /* Sections */
