@@ -18,7 +18,7 @@ export function Contact() {
         </a>
       </div>
       <p className="contact__detail reveal">
-        {profile.email} · {profile.whatsappDisplay}
+        {profile.email}
       </p>
       {(profile.github || profile.linkedin) && (
         <p className="contact__social reveal">
